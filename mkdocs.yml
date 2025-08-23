@@ -1,0 +1,48 @@
+site_name: AutoBlend
+site_url: https://bergice.github.io/autoblend
+theme:
+  name: material
+  custom_dir: overrides
+  logo: PlaceholderButtonIcon.svg
+  favicon: Icon128.png
+  palette:
+    - scheme: slate   # dark mode
+      primary: black  # header color
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default # light mode
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  features:
+    - navigation.sections
+    - navigation.instant
+    - navigation.footer
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - announce.dismiss
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+nav:
+  - Home: index.md
+#  - Getting Started: getting-started.md
+  - FAQ: faq.md
+  - Changelog: changelog.md
+  - Contact / Support: contact.md
+extra:
+  generator: false
+  status:
+    new: VERSION 1 IS OUT!
+#  social: 
+#    - icon: fontawesome/link
+#      link: https://www.fab.com/listings/b474f704-c319-4fd0-87f3-651931da6b33
+#  version:
+#    provider: mike
+copyright: Copyright &copy; 2025 Bergice Productions Limited
