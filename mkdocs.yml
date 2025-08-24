@@ -52,3 +52,4 @@ extra:
 copyright: Copyright &copy; 2025 Bergice Productions Limited
 plugins:
   - blog
+  - meta

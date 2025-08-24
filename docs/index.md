@@ -1,6 +1,5 @@
 ---
 title: AutoBlend
-comments: true
 ---
 
 # AutoBlend – Easily blend objects in your scene
