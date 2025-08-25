@@ -41,12 +41,13 @@ nav:
 #  - Getting Started: getting-started.md
   - Features: features.md
   - FAQ: faq.md
+  - Performance: performance.md
   - Changelog: changelog.md
   - Contact / Support: contact.md
 extra:
   generator: false
   status:
-    new: VERSION 1 IS OUT!
+    new: VERSION 2 IS OUT - FASTER & SMOOTHER PERFORMANCE!
 #  social: 
 #    - icon: fontawesome/link
 #      link: https://www.fab.com/listings/b474f704-c319-4fd0-87f3-651931da6b33

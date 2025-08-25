@@ -5,6 +5,12 @@ status: new
 
 [Get it here](https://www.fab.com/listings/b474f704-c319-4fd0-87f3-651931da6b33){ .md-button .md-button--primary }
 
+# Version 2
+
+*August 25 2025*
+
+* Performance improvements.
+
 # Version 1
 
 *August 20 2025*

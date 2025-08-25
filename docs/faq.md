@@ -5,9 +5,17 @@ title: FAQ
 # Frequently Asked Questions (FAQ)
 
 ## How performant is it?
-Performance varies depending on the computer, resources available, resolution and how much of the screen is covered by blended seams.
-I'll be preparing a more detailed performance report and demo soon as well as a performance improvement patch.
-The goal is to keep render overhead <1ms on modern hardware in most scenarios.
+Performance varies depending on factors such as:
+
+* computer specs and resource capacity
+* resolution
+* shader settings
+* how much of the screen is covered by blended seams.
+
+I'll be preparing a demo soon so you can test it out on your own machine.
+The goal is to keep render overhead <`1ms` on modern hardware in most scenarios.
+
+Check out the performance and benchmarking details [here](performance.md).
 
 ## Which Unreal Engine versions are supported?
 Unreal Engine `5.6`. I'm working on adding `5.1`-`5.5` support. If there's demand I may add `4.x` support as well.
