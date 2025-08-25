@@ -17,28 +17,43 @@ It will automatically compute blend IDs for meshes, but you can override them pe
 - **Scales well**: Adds very little overhead, so it works efficiently even with thousands of meshes.
 - **No compile-time changes**: Drop it into existing materials without rebuilding shaders or the project.
 
-<video autoplay loop width="400"><source src="media/snow.mp4" type="video/mp4"></video>
+<video autoplay loop muted playsinline preload="metadata" width="400">
+  <source src="media/snow.mp4"  type="video/mp4">
+  <source src="media/snow.webm" type="video/webm">
+</video>
 
 </div>
 
 ## Setup
-1. **Installation**
-    - Click the AutoBlend button in the Unreal Editor toolbar to open the plugin window.
-    - Install the plugin by clicking the **Install** button.
-2. **Add the post process effect**
-    - Add a *Post Process Volume* to your level.
-    - Add the `M_PostProcess_AutoBlend` material under **Rendering Features → Post Process Materials**.
-    - (Optional) Enable **Infinite Extent (Unbound)** to apply the effect everywhere.
+
+=== "1. Installation"
+
+    1. Click the AutoBlend button in the Unreal Editor toolbar to open the plugin window.
+    2. Install the plugin by clicking the **Install** button.
+
+=== "2. Add the post process effect"
+
+    1. Add a *Post Process Volume* to your level.
+    2. Add the `M_PostProcess_AutoBlend` material under **Rendering Features → Post Process Materials**.
+    3. (Optional) Enable **Infinite Extent (Unbound)** to apply the effect everywhere.
     ![Tutorial_PostProcessMaterial.png](media/Tutorial_PostProcessMaterial.png)
 
-3. **Hook up the Blend ID function**
-    - Open your mesh base material.
-    - Add the `MF_BlendID` material function node.
-    - Connect its output appropriately for blending.
-    - Repeat for all materials you want to blend.
+=== "3. Hook up the Blend ID function"
+
+    1. Open your mesh base material.
+    2. Add the `MF_BlendID` material function node.
+    3. Connect its output to **Ambient Occlusion** to enable blending.
+    4. Repeat for all materials you want to blend.
     ![Tutorial_MaterialBlendId.png](media/Tutorial_MaterialBlendId.png)
 
-**<video autoplay loop width="400"><source src="media/forest.mp4" type="video/mp4"></video>**
+    > Note: We can multiply `AO` with `Base Color` to include ambient occlusion in the final output.
+
+-----
+
+<video autoplay loop muted playsinline preload="metadata" width="400">
+  <source src="media/forest.mp4"  type="video/mp4">
+  <source src="media/forest.webm" type="video/webm">
+</video>
 
 ## Usage
 AutoBlend automatically computes a blend ID for every mesh with the material function applied.  
@@ -51,5 +66,7 @@ You can override this behavior:
 ![Tutorial_ManualBlendId.png](media/Tutorial_ManualBlendId.png)
 </div>
 
-<video autoplay loop><source src="media/desert.mp4" type="video/mp4"></video>
-
+<video autoplay loop muted playsinline preload="metadata" width="400">
+  <source src="media/desert.mp4"  type="video/mp4">
+  <source src="media/desert.webm" type="video/webm">
+</video>
