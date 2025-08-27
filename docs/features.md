@@ -10,7 +10,7 @@ title: Features / Roadmap
 * ✅ Unreal Engine 5.6 support
 * ✅ Windows, Mac, Linux support
 * ✅ Performance improvements
-* ☐ Unreal Engine 5.1-5.5 support
+* ✅ Unreal Engine 5.1-5.5 support
 * ☐ Unreal Engine 4.x support
 * ☐ Improve blend artifacts where lights and shadows meet near seams
 * ☐ More natural blending and noise blending

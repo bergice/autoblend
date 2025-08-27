@@ -18,7 +18,7 @@ The goal is to keep render overhead <`1ms` on modern hardware in most scenarios.
 Check out the performance and benchmarking details [here](performance.md).
 
 ## Which Unreal Engine versions are supported?
-Unreal Engine `5.6`. I'm working on adding `5.1`-`5.5` support. If there's demand I may add `4.x` support as well.
+Unreal Engine `5.1`-`5.6`. If there's demand I may add `4.x` support as well.
 
 ## Which render modes are supported?
 Only deferred rendering is supported due to the requirement for a GBuffer channel.

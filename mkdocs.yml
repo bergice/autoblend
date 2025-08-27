@@ -47,7 +47,8 @@ nav:
 extra:
   generator: false
   status:
-    new: VERSION 2 IS OUT - FASTER & SMOOTHER PERFORMANCE!
+    #    ANNOUNCEMENT UPDATE
+    new: VERSION 3 IS OUT - UNREAL ENGINE 5.1-5.6 SUPPORT!
 #  social: 
 #    - icon: fontawesome/link
 #      link: https://www.fab.com/listings/b474f704-c319-4fd0-87f3-651931da6b33
