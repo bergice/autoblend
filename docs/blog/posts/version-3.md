@@ -3,7 +3,7 @@ date:
   created: 2025-08-27
 ---
 
-# Version 3 is out!
+# Version 3 is out, Unreal Engine 5.1-5.6 support!
 
 The plugin now supports Unreal Engine `5.1`-`5.6`!
 Also fixed a small issue with Windows not rendering symbols correctly in the popup.
