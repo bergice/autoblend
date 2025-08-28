@@ -24,6 +24,7 @@ theme:
     - content.code.copy
     - search.suggest
     - search.highlight
+    - search.share
     - content.code.copy
     - announce.dismiss
 markdown_extensions:
@@ -58,3 +59,4 @@ copyright: Copyright &copy; 2025 Bergice Productions Limited
 plugins:
   - blog
   - meta
+  - search
