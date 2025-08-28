@@ -22,6 +22,7 @@ Unreal Engine `5.1`-`5.6`. If there's demand I may add `4.x` support as well.
 
 ## Which render modes are supported?
 Only deferred rendering is supported due to the requirement for a GBuffer channel.
+<br/>Static lighting is not supported.
 
 ## Why is the Material Ambient Occlusion channel used?
 It's the only buffer suitable for custom effects without modifying the engine.

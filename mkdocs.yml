@@ -43,6 +43,7 @@ nav:
   - Features: features.md
   - FAQ: faq.md
   - Performance: performance.md
+  - Troubleshooting: troubleshooting.md
   - Changelog: changelog.md
   - Contact / Support: contact.md
 extra:
