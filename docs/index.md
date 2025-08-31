@@ -30,6 +30,8 @@ It will automatically compute blend IDs for meshes, but you can override them pe
 
     1. Click the AutoBlend button in the Unreal Editor toolbar to open the plugin window.
     2. Install the plugin by clicking the **Install** button.
+    
+    > **Note**: This is necessary to fix some visual artifacts.
 
 === "2. Add the post process effect"
 
