@@ -56,12 +56,17 @@ It will automatically compute blend IDs for meshes, but you can override them pe
 </video>
 
 ## Usage
-AutoBlend automatically computes a blend ID for every mesh with the material function applied.  
-You can override this behavior:
+AutoBlend automatically computes a blend ID for every mesh with the material function applied.
+The blend ID determines which objects blend with each other.
+Objects with the same blend ID won't blend, while objects with different blend IDs blend together.
+You can manually override the blend ID:
 
 <div class="grid" markdown>
 - **Per Material Override**: Set the *Blend ID* scalar parameter in the material instance (affects all meshes using that material).
 - **Per Object Override**: Set *Custom Primitive Data [0]* in the mesh instance settings for per-instance control.
+<br/>
+> **Note**: You can set blend values in the range of `0-254`.
+> Set a blend ID of `255` to disable blending for an object/material that has blending enabled.
 
 ![Tutorial_ManualBlendId.png](media/Tutorial_ManualBlendId.png)
 </div>
