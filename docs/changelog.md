@@ -5,6 +5,13 @@ status: new
 
 [Get it here](https://www.fab.com/listings/b474f704-c319-4fd0-87f3-651931da6b33){ .md-button .md-button--primary }
 
+# Version 4
+
+*September 2 2025*
+
+* Fix exposure in post process shader.
+* Debug view can be faded in/out to blend with the default view.
+
 # Version 3
 
 *August 27 2025*
