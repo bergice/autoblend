@@ -32,6 +32,8 @@ It will automatically compute blend IDs for meshes, but you can override them pe
     2. Install the plugin by clicking the **Install** button.
     3. Click **Recompile Shaders** - this may take a few minutes.
     
+    ![Tutorial_OpenPlugin.png](media/Tutorial_OpenPlugin.png)
+
     > **Note**: This is necessary to fix some visual artifacts.
 
 === "2. Add the post process effect"
