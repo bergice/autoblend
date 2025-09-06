@@ -123,3 +123,10 @@ Here are some common issues and solutions in case you run into problems with get
   });
 })();
 </script>
+
+## Color artifacts
+
+If you notice color artifacts such as models having different brightness levels or shadows being too dark,
+you probably haven't installed the shader patch.
+
+Make sure to install the shader patch as described in the [installation steps](/autoblend/#setup) and recompile shaders afterwards.

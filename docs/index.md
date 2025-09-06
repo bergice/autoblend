@@ -30,6 +30,7 @@ It will automatically compute blend IDs for meshes, but you can override them pe
 
     1. Click the AutoBlend button in the Unreal Editor toolbar to open the plugin window.
     2. Install the plugin by clicking the **Install** button.
+    3. Click **Recompile Shaders** - this may take a few minutes.
     
     > **Note**: This is necessary to fix some visual artifacts.
 
