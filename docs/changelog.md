@@ -5,6 +5,12 @@ status: new
 
 [Get it here](https://www.fab.com/listings/b474f704-c319-4fd0-87f3-651931da6b33){ .md-button .md-button--primary }
 
+# Version 5
+
+*September 7 2025*
+
+* Fix shader material not showing up on Unreal Engine 5.1-5.5.
+
 # Version 4
 
 *September 2 2025*

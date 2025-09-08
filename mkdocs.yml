@@ -50,7 +50,7 @@ extra:
   generator: false
   status:
     #    ANNOUNCEMENT UPDATE
-    new: VERSION 4 IS OUT - EXPOSURE FIX!
+    new: VERSION 5 IS OUT - BACKWARDS COMPATIBILITY FIX!
 #  social: 
 #    - icon: fontawesome/link
 #      link: https://www.fab.com/listings/b474f704-c319-4fd0-87f3-651931da6b33
