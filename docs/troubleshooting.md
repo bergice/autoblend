@@ -130,3 +130,11 @@ If you notice color artifacts such as models having different brightness levels 
 you probably haven't installed the shader patch.
 
 Make sure to install the shader patch as described in the [installation steps](/autoblend/#setup) and recompile shaders afterwards.
+
+## Blending / ghosting occurs on objects that shouldn't be blended
+
+Make sure to unplug the material AO pin for objects that shouldn't be blended,
+otherwise you may notice blurring / ghosting / out of focus effects on those objects.
+This is due to the material AO being read by the blend effect and mistakenly interprets it as edges across the surface of your object.
+
+You can confirm this by enabling `DebugView` in the autoblend material instance - it should show random colors across the surface of your object.
