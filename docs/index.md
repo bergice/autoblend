@@ -35,12 +35,17 @@ It will automatically compute blend IDs for meshes, but you can override them pe
     
     ![Tutorial_OpenPlugin.png](media/Tutorial_OpenPlugin.png)
 
-    > **Note**: This is necessary to fix some visual artifacts.
-
+    !!! info
+        This is necessary to fix some visual artifacts.
 === "2. Add the post process effect"
 
     1. Add a *Post Process Volume* to your level.
     2. Add the `M_PostProcess_AutoBlend` material under **Rendering Features → Post Process Materials**.
+
+    ??? note "Make sure `Show Plugin Content` is checked under the `Content Drawer` settings, otherwise the materials won't show up."
+
+        ![plugin content.png](media/plugin%20content.png)
+
     3. (Optional) Enable **Infinite Extent (Unbound)** to apply the effect everywhere.
     ![Tutorial_PostProcessMaterial.png](media/Tutorial_PostProcessMaterial.png)
 
@@ -52,7 +57,8 @@ It will automatically compute blend IDs for meshes, but you can override them pe
     4. Repeat for all materials you want to blend.
     ![Tutorial_MaterialBlendId.png](media/Tutorial_MaterialBlendId.png)
 
-    > Note: We can multiply `AO` with `Base Color` to include ambient occlusion in the final output.
+    !!! tip
+        We can multiply `AO` with `Base Color` to include ambient occlusion in the final output.
 
 -----
 
