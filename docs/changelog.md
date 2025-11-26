@@ -5,6 +5,12 @@ status: new
 
 [Get it here](https://www.fab.com/listings/b474f704-c319-4fd0-87f3-651931da6b33){ .md-button .md-button--primary }
 
+# Version 6
+
+*November 26 2025*
+
+* Unreal Engine `5.7` support!
+
 # Version 5
 
 *September 7 2025*
