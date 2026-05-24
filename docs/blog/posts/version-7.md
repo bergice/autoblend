@@ -3,7 +3,7 @@ date:
   created: 2026-05-24
 ---
 
-# Version 6 is out, Unreal Engine 4.27 support!
+# Version 7 is out, Unreal Engine 4.27 support!
 
 AutoBlend now supports Unreal Engine 4.27 in addition to the existing 5.x support.
 
