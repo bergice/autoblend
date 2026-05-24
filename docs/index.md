@@ -52,7 +52,10 @@ It will automatically compute blend IDs for meshes, but you can override them pe
 === "3. Hook up the Blend ID function"
 
     1. Open your mesh base material.
-    2. Add the `MF_BlendID` material function node.
+    2. Add a material function node and assign the `MF_BlendID` material.
+
+    !!! note "Make sure `Show Plugin Content` is checked under the material selector settings, otherwise the materials won't show up."
+
     3. Connect its output to **Ambient Occlusion** to enable blending.
     4. Repeat for all materials you want to blend.
     ![Tutorial_MaterialBlendId.png](media/Tutorial_MaterialBlendId.png)

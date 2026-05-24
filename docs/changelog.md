@@ -5,12 +5,18 @@ status: new
 
 [Get it here](https://www.fab.com/listings/b474f704-c319-4fd0-87f3-651931da6b33){ .md-button .md-button--primary }
 
-# Version 6
+# Version 7
 
 *May 24 2026*
 
 * Unreal Engine 4.27 support.
 * Install tool now checks required project settings (Allow Static Lighting, Forward Shading, `r.Lumen.ScreenProbeGather.MaterialAO`) and offers to fix them automatically.
+
+# Version 6
+
+*November 26 2025*
+
+* Unreal Engine `5.7` support!
 
 # Version 5
 
