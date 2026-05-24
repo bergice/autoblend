@@ -10,6 +10,7 @@ status: new
 *May 24 2026*
 
 * Unreal Engine 4.27 support.
+* Install tool now checks required project settings (Allow Static Lighting, Forward Shading, `r.Lumen.ScreenProbeGather.MaterialAO`) and offers to fix them automatically.
 
 # Version 5
 
