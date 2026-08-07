@@ -5,6 +5,14 @@ status: new
 
 [Get it here](https://www.fab.com/listings/b474f704-c319-4fd0-87f3-651931da6b33){ .md-button .md-button--primary }
 
+# Version 8
+
+*August 7 2026*
+
+* Unreal Engine `5.8` support!
+* Fixed project settings changes from the install tool not being saved to `DefaultEngine.ini`.
+* Install tool now offers to restart the editor after fixing project settings.
+
 # Version 7
 
 *May 24 2026*
